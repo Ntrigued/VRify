@@ -1,0 +1,26 @@
+-able to go back and forth pages in VR
+
+-able to leave VR without loss of:
+	* login
+	* cookies
+	* inputted data
+	* etc...
+
+-able to show ads in VR
+	- Have the ability to create multiple panels
+	- Ad should be easily showable on a panel
+
+-choose from multiple VR environments
+
+-able to read example VR code from within VR
+
+-Enter VR examples as if they were pages
+	* with full back/forward page functionalty (of first point above)
+
+-Should be easily packageable for new projects
+
+-Frontend-only and backend-independent
+
+Questions:
+	* Should it also work in AR?
+	* Should you be able to go back and forth pages in VR, including pages which are from other sites?
