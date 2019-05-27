@@ -5,7 +5,8 @@ Depends on:
 
 
 VRify.setup = function() {
-	VRify.setupCanvas();
+	VRify.setupScene();
+	VRify.setupButtons();
 };
 
 VRify.ready = function(f){
