@@ -1,0 +1,19 @@
+{
+  "name": "vrify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntrigued/VRify.git"
+  },
+  "author": "Matthew Allbee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ntrigued/VRify/issues"
+  },
+  "homepage": "https://github.com/Ntrigued/VRify#readme"
+}

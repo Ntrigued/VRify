@@ -10,8 +10,6 @@
 	- Have the ability to create multiple panels
 	- Ad should be easily showable on a panel
 
--choose from multiple VR environments
-
 -able to read example VR code from within VR
 
 -Enter VR examples as if they were pages
@@ -24,3 +22,7 @@
 Questions:
 	* Should it also work in AR?
 	* Should you be able to go back and forth pages in VR, including pages which are from other sites?
+
+
+Nice to have:
+  - choose from multiple VR environments
