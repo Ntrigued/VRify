@@ -1,32 +1,29 @@
-import aframe from "aframe";
+import { AScene } from "aframe";
 import DOMReader from "./DOMReader.js";
-
 
 class VRify {
     buttons = []; // list of elements with "VRify-Button" class.
     scene = null; //a-scene element
 
     setup() {
-        console.log(aframe);
+        console.log(AScene);
         // Reset if setup had already been run
         this.buttons = [];
         if(document.getElementById("VRify-Scene")) {
             document.getElementById("VRify-Scene").remove();
         }
 
-        this.scene = document.createElement("a-scene");
-        this.scene.id = "VRify-Scene";
-        this.scene.style.display = "none";
-        document.body.appendChild(this.scene);
-        console.log(document.getElementById("VRify-Scene"));
-        this.scene.setAttribute("environment", "preset: tron");
-
         this.buttons = document.getElementsByClassName("VRify-Button");
         for(var i = 0; i < this.buttons.length; i++) {
             var button = this.buttons[i];
             button.onclick = function() {
-                console.log("clicked");
-                document.getElementsByClassName("a-enter-vr-button")[0].click();
+                this.scene = document.createElement('a-scene');
+                this.scene.id = "VRify-Scene";
+                this.scene.setAttribute("environment", "preset: tron");
+                const box = document.createElement('a-box');
+                box.setAttribute('color', 'red');
+                this.scene.appendChild(box);
+                document.body.appendChild(this.scene);
             };
         }
     };
